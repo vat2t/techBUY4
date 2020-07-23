@@ -9,8 +9,6 @@ body,html{
 }
 .wrapper{
     min-height: 100%;
-    min-width: 1000px;
-    width: 100%;
     background-color: burlywood;
 }
 .container{
@@ -30,4 +28,17 @@ body,html{
     background-color: blue;
     position: relative;
     z-index: 10;
+}
+.right{
+
+}
+.left{
+
+}
+.content{
+    
+}
+.clear{
+    height: 1px;
+    clear: both;
 }
