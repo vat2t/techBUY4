@@ -13,14 +13,18 @@ body,html{
 }
 .wrapper{
     min-height: 100%;
-    background-color: burlywood;
+    background-image: url(../images/101975.jpg);
+    background-position: center center;
+
+    background-attachment: fixed;
 }
 .container{
     z-index: 100;
-    max-width: 1140px;
+    padding-top: 80px;
+    max-width: 1600px;
     width: 96%;
     margin: 0 auto;
-    background-color: red
+    background-color: burlywood
 }
 .subfooter{
     height: 75px;
@@ -64,6 +68,4 @@ background-color: black;
     margin-bottom: 36px;
     width: 25%;
     float: left;
-}
-.catalog .row .itemcont .item{
 }
