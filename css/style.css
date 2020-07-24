@@ -4,8 +4,12 @@ body,html{
     height: 100%;
 }
 .header{
-    height: 200px;
-    background-color: aqua;
+    position: FIXED;
+    width: 100%;
+    z-index: 200;
+    height: 75px;
+    background-color: darkolivegreen;
+    font-size: 36px;
 }
 .wrapper{
     min-height: 100%;
@@ -19,26 +23,47 @@ body,html{
     background-color: red
 }
 .subfooter{
-    height: 200px;
+    height: 75px;
 
 }
 .footer{
-    height: 200px;
-    margin-top: -200px;
+    height: 75px;
+    margin-top: -75px;
     background-color: blue;
     position: relative;
     z-index: 10;
 }
 .right{
-
+float: right;
+background-color: black;
 }
 .left{
-
+float: left;
+background-color: black;
 }
 .content{
-    
+    position: relative;
+    overflow: hidden;
 }
 .clear{
     height: 1px;
     clear: both;
+}
+.catalog{
+    position: relative;
+    overflow: hidden;
+}
+.catalog .row{
+    position: relative;
+    overflow: hidden;
+    margin-right: -36px;
+}
+.catalog .row .itemcont{
+    box-sizing: border-box;
+    padding-right: 36px;
+    margin-bottom: 36px;
+    width: 25%;
+    float: left;
+}
+.catalog .row .itemcont .item{
 }
